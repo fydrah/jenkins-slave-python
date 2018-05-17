@@ -12,7 +12,7 @@ Python2.7 - Centos7
 * Quay.io: 
 
   .. image:: https://quay.io/repository/fydrah/jenkins-slave-python27-centos7/status
-      :target: https://quay.io/repository/fydrah/jenkins-slave-python27-centos7/status
+      :target: https://quay.io/repository/fydrah/jenkins-slave-python27-centos7
 
 Configure on Jenkins
 ====================

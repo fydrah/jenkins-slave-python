@@ -2,7 +2,7 @@ FROM openshift/jenkins-slave-base-centos7
 
 RUN yum makecache && \
     yum install -y epel-release && \
-    yum install -y python2-pip python-virtualenv && \
+    yum install -y python2-pip python-virtualenv gcc && \
     yum clean all -y
 
 RUN virtualenv $HOME/venv && \
